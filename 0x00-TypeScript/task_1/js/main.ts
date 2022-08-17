@@ -11,3 +11,11 @@ interface Teacher {
 interface Directors extends Teacher {
 numberOfReports: number;
 }
+
+interface printTeacherFunction {
+  (firstName: string, lastName: string): void;
+}
+
+interface printTeacherFunction {
+  (firstName: string, lastName: string): void;
+}
