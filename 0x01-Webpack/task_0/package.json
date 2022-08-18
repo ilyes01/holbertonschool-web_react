@@ -1,0 +1,18 @@
+{
+  "name" : "ilyes",
+  "version": "1.0.0",
+  "email" : "2583@holbertonstudents.com",
+  "url" : "",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "jquery": "^2.2.4"
+  },
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "dev": "webpack --mode development",
+   "build": "webpack --mode production"
+  }
+}
