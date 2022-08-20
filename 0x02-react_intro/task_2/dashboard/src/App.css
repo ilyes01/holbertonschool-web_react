@@ -77,8 +77,8 @@ left:0;
 
 .App-body {
   margin-top: 3%;
-  border-top: solid;
   border-bottom: solid;
+  border-top: solid;
   border-color: #e1003c;
   min-height: 20vmax;
   padding: 30px;
