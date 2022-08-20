@@ -76,6 +76,7 @@ left:0;
 }
 
 .App-body {
+  margin-top: 3%;
   border-top: solid;
   border-bottom: solid;
   border-color: #e1003c;
