@@ -15,5 +15,5 @@ $('body').append('<button>Click here to get started</button>');
 $('body').append($('<p>').attr('id', 'count'));
 $('body').append('<p>Copyright - Holberton School</p>');
 
-$('button').on('click', _.debounce(updateCounter, 498));
+$('button').on('click', _.debounce(updateCounter, 300));
 });
