@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import _ from 'lodash';
+const _ = require('lodash');
 
 *$(document).ready(function () {
   $("<p>Holberton Dashboard</p>").appendTo($('body'));
