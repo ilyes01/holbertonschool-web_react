@@ -1,15 +1,16 @@
 import $ from 'jquery';
 import _ from 'lodash';
 
-$("<p>Holberton Dashboard</p>").appendTo($('body'));
-$("<p>Dashboard data for the students</p>").appendTo($('body'));
-$("<button>Click here to get started</button>").appendTo($('body'));
-$("<p id='count'></p>").appendTo($('body'));
-$("<p>Copyright - Holberton School</p>").appendTo($('body'));
+*$(document).ready(function () {
+  $("<p>Holberton Dashboard</p>").appendTo($('body'));
+  $("<p>Dashboard data for the students</p>").appendTo($('body'));
+  $("<button>Click here to get started</button>").appendTo($('body'));
+  $("<p id='count'></p>").appendTo($('body'));
+  $("<p>Copyright - Holberton School</p>").appendTo($('body'));
 
-const updateCounter = _.debounce(() => {
-    let i= 0;
-    i+=1;
-    $("#count").text(`${i} clicks on the button`);
-});
-$('button').on('click', updateCounter);
+  const updateCounter = _.debounce(() => {
+      let i= 0;
+      i+=1;
+      $("#count").text(`${i} clicks on the button`);
+  });
+  $('button').on('click', updateCounter);
