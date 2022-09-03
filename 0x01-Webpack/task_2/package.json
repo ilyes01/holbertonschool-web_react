@@ -1,5 +1,5 @@
 {
-  "name": "task_1",
+  "name": "task_2",
   "version": "1.0.1",
   "description": "task",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "image-webpack-loader": "^8.1.0",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21"
   },
