@@ -7,19 +7,20 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/public'
 },
- module: {
+ mode: 'production',
+  module: {
     rules: [
       {
-        test: /\.css$/i,
+        test: /\.css$/,
         use: [
           'style-loader',
           'css-loader'
         ]
       },
       {
-       test: /\.(jpg|png|gif|svg)$/,
-       loader: 'image-webpack-loader',
-       enforce: 'pre'
+        test: /\.(jpg|png|gif|svg)$/,
+        loader: 'image-webpack-loader',
+        enforce: 'pre'
       }
     ]
   }
