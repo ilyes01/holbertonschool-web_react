@@ -11,18 +11,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [
           'style-loader',
           'css-loader'
         ]
       },
       {
-        test: /\.(jpg|png|gif|svg)$/,
-        use: [
+        test: /\.(jpg|png|gif|svg)$/i,
         loader: 'image-webpack-loader',
         enforce: 'pre'
-        ]
       }
     ]
   }
