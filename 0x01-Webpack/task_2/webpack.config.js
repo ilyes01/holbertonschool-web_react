@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.(jpg|png|gif|svg)$/,
-        loader: 'mage-webpack-loader',
+        loader: 'image-webpack-loader',
         enforce: 'pre'
       }
     ]
