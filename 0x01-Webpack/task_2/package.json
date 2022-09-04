@@ -1,6 +1,7 @@
+
 {
-  "name": "task_1",
-  "version": "1.0.0",
+  "name": "task_2",
+  "version": "1.0.1",
   "description": "task",
   "main": "index.js",
   "scripts": {
@@ -8,18 +9,19 @@
     "build": "webpack",
     "start": "js/dashboard_main.js"
   },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^8.1.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
-  },
-  "dependencies": {
-    "css-loader": "^6.7.1",
-    "image-webpack-loader": "^8.1.0",
-    "jquery": "^3.5.1",
-    "lodash": "^4.17.21",
-    "style-loader": "^3.3.1"
   }
 }
