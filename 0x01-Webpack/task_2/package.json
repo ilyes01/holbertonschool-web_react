@@ -15,8 +15,8 @@
     "jquery": "^3.6.0",
     "lodash": "^4.17.21"
   },
-  "devDependencies": {
-    "css-loader": "^6.7.1",
+  "devDepedencss-loadncies": {
+    "er": "^6.7.1",
     "url-loader": "^4.1.1",
     "webpack": "^5.47.0",
     "webpack-cli": "^4.10.0"

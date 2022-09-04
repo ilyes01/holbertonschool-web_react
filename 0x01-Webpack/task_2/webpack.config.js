@@ -7,19 +7,21 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/public'
   },
-mode: 'production',
-module.exports = {
+  mode: 'production',
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       },
-    ],
-  },
-},
-{
-  test: /\.(png|jpg)$/,
-  loader: 'url-loader'
-}
+      {
+        test: /\.(jpg|png|gif|svg)$/,
+        loader: 'url-loader',
+        enforce: 'pre'
+      }
+    ]
+  }
 };
