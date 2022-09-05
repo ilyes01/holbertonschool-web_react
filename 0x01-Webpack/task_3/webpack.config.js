@@ -34,6 +34,10 @@ module.exports = {
           'css-loader'
         ]
       },
+            options: {
+              bypassOnDebug: true,
+              disable: true,
+            },
       {
         test: /\.(jpg|png|gif|svg)$/i,
         use: [
