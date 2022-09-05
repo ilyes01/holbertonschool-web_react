@@ -1,3 +1,4 @@
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -23,8 +24,7 @@ module.exports = {
     maxEntrypointSize: 1000000,
   },
   devtool: 'inline-source-map',
-  mode: 'development'
-  mode: 'production',
+  mode: 'development',
   module: {
     rules: [
       {
@@ -34,10 +34,6 @@ module.exports = {
           'css-loader'
         ]
       },
-            options: {
-              bypassOnDebug: true,
-              disable: true,
-            },
       {
         test: /\.(jpg|png|gif|svg)$/i,
         use: [
@@ -48,7 +44,7 @@ module.exports = {
         ],
       },
     ]
-  }
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack Output',
