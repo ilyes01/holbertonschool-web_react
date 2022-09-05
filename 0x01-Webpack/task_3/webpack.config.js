@@ -55,4 +55,5 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
+  devtool: 'inline-source-map',
 };
