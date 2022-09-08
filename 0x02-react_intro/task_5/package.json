@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "@webpack-cli/generators": "^2.5.0"
-  }
-}
-"scripts": {
-  "build": "webpack --config prod.config.js"
-}
