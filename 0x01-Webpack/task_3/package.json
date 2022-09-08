@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
+<<<<<<< HEAD
     "start-dev": "webpack-dev-server --open"
   },
   "devDependencies": {
@@ -18,12 +19,35 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.2",
     "file-loader": "^6.2.0"
+=======
+    "start": "js/dashboard_main.js",
+    "start-dev": "webpack serve --open"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "save-dev": "0.0.1-security"
+>>>>>>> 18c8cbb0dd3b149fdde0b2fb88c55ee3d4ae006e
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "dependencies": {
     "jquery": "^3.5.1",
     "lodash": "^4.17.20"
   },
+=======
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^4.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  }
+>>>>>>> 18c8cbb0dd3b149fdde0b2fb88c55ee3d4ae006e
 }
