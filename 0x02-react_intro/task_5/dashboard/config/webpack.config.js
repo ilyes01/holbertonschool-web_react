@@ -36,6 +36,11 @@ module.exports = {
     type: 'asset/resource',
     loader: 'image-webpack-loader',
   },
+      {
+				test: /\.(js|jsx)$/,
+				exclude: /node_modules/,
+				loader: 'babel-loader',
+			}
 ],
 devtool: "inline-map", // enum
 // enhance debugging by adding meta info for the browser devtools
