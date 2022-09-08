@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "js/dashboard_main.js"
+    "start": "js/dashboard_main.js",
+    "start-dev": "webpack-serv"
   },
   "dependencies": {
     "jquery": "^3.6.0",
